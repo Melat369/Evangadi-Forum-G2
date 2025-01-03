@@ -12,6 +12,8 @@ const dbConnection = mysql.createPool({
 	queueLimit: 0,
 });
 
+
+
 // Function to create tables
 const createTables = (connection) => {
 	const usersTable = `
